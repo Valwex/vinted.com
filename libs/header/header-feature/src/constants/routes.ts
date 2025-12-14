@@ -1,0 +1,8 @@
+export const ITEM_UPLOAD_URL = '/items/new'
+export const ROOT_URL = '/'
+export const SIGNUP_URL = '/member/signup/select_type'
+export const USER_FAVOURITE_ITEMS_URL = '/member/items/favourite_list'
+export const HELP_FAQ_ENTRIES_URL = '/help'
+export const NOTIFICATIONS_URL = '/member/notifications'
+export const USERS_VERIFICATION_URL = '/users/verification'
+export const EMAIL_CODE_VERIFICATION_URL = '/users/verification/email_code'

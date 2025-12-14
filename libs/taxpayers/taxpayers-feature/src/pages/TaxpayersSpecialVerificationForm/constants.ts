@@ -1,0 +1,1 @@
+export const SPECIAL_VERIFICATION_SESSION_ID_KEY = 'specialVerificationSessionId'

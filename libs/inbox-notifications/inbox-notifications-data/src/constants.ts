@@ -1,0 +1,46 @@
+export enum InboxNotificationType {
+  Vinted = 'vinted',
+  Braze = 'braze',
+}
+
+export enum InboxNotificationImpressionSource {
+  InboxNotificationsPage = 'inbox_notifications_page',
+  InboxNotificationsDropdown = 'inbox_notifications_dropdown',
+}
+
+export enum NotificationEntryType {
+  ItemFavourite = 20,
+  NewFollower = 30,
+  NewItem = 40,
+  ItemDiscount = 50,
+  FalseReplicaProof = 95,
+  NewMessage = 110,
+  NewOffer = 120,
+  NewOfferToSeller = 121,
+  OfferAccepted = 125,
+  OfferDeclined = 126,
+  BuyerMessage = 130,
+  SellerMessage = 131,
+  BuyerBundleMessage = 132,
+  SellerBundleMessage = 133,
+  SystemMessage = 140,
+  TransactionStatusMessage = 150,
+  CancellationRequest = 180,
+  CancellationDecline = 185,
+  CRMCampaignMessage = 190,
+  NewFeedback = 200,
+  NewFeedbackComment = 210,
+  RemindFeedbackSeller = 290,
+  RemindFeedbackBuyer = 295,
+  FavouriteItemSold = 300,
+  CRM = 640,
+  ReferredMember = 650,
+  CreditCardExpired = 670,
+  TransactionStatusChange = 680,
+  ItemPublished = 690,
+  TaxpayerLimitReached = 710,
+  ItemReviewed = 720,
+  TaxpayerReportReady = 730,
+  ActiveListerBadgeGranted = 740,
+  ItemPriceReductionSuggestion = 750,
+}

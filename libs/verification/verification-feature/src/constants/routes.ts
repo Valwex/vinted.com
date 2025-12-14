@@ -1,0 +1,7 @@
+export const ROOT_URL = '/'
+export const PHONE_VERIFICATION_URL = '/users/verification/phone/new'
+export const SECURITY_SETTINGS_URL = '/settings/security'
+export const EMAIL_VERIFICATION_URL = '/users/verification/email/new'
+export const SECURITY_SETTINGS_2FA_URL = '/settings/security/phone_verification'
+export const EMAIL_CODE_VERIFICATION_URL = '/users/verification/email_code'
+export const GOOGLE_OAUTH_URL = '/auth/google/oauth'

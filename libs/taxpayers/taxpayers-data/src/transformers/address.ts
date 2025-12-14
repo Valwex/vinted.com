@@ -1,0 +1,26 @@
+import { AddressDto, AddressModel } from '../types/address'
+
+export const transformAddress = (address: AddressDto): AddressModel => ({
+  id: address.id,
+  userId: address.user_id,
+  entryType: address.entry_type,
+  countryId: address.country_id,
+  isDefault: address.is_default === 1,
+  isDeleted: address.is_deleted,
+  isComplete: address.is_complete,
+  cityId: address.city_id,
+  name: address.name,
+  createdAt: address.created_at,
+  country: address.country,
+  city: address.city,
+  updatedAt: address.updated_at,
+  externalCode: address.external_code,
+  latitude: address.latitude,
+  line1: address.line1,
+  line2: address.line2,
+  longitude: address.longitude,
+  postalCode: address.postal_code,
+  state: address.state,
+  formattedAddress: address.formatted_address,
+  countryIsoCode: address.country_iso_code,
+})

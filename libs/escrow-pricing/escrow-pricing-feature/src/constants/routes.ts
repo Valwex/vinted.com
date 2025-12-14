@@ -1,0 +1,6 @@
+export const BUYER_PROTECTION_PRO_URL = '/safety_pro#buyer-protection'
+export const SERVICE_FEE_HELP_URL = '/help/342'
+export const SERVICE_FEE_PRO_HELP_URL = '/help/908'
+export const HELP_REFUND_POLICY = '/help/465-the-vinted-refund-policy'
+export const HELP_REFUND_POLICY_PRO = '/help/885'
+export const HELP_RIGHT_OF_WITHDRAWAL_PRO = '/help/886'

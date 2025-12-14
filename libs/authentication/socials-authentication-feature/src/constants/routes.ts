@@ -1,0 +1,5 @@
+export const ROOT_URL = '/'
+export const LOGIN_SELECT_TYPE = '/member/login/select_type'
+export const REGISTER_SELECT_TYPE = '/member/register/select_type'
+export const CHANGE_PASSWORD = '/member/general/change_password'
+export const GOOGLE_OAUTH_URL = '/auth/google/oauth'

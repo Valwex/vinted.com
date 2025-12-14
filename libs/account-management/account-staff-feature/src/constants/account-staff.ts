@@ -1,0 +1,1 @@
+export const ACCOUNT_SWITCH_TOOLTIP_SESSION_STORAGE_KEY = 'isAccountSwitchTooltipVisible'

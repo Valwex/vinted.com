@@ -1,0 +1,5 @@
+export const DD_BLOCKED_EVENT = 'dd_blocked'
+export const DD_RESPONSE_DISPLAYED_EVENT = 'dd_response_displayed'
+export const DD_RESPONSE_UNLOAD_EVENT = 'dd_response_unload'
+export const DD_RESPONSE_ERROR_EVENT = 'dd_response_error'
+export const DD_READY_EVENT = 'dd_ready'

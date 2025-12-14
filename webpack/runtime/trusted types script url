@@ -1,0 +1,1 @@
+__webpack_require__.tu = (url) => (__webpack_require__.tt().createScriptURL(url));

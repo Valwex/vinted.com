@@ -1,0 +1,9 @@
+export const MS_PER_SECOND = 1000
+
+export const SECONDS_PER_MINUTE = 60
+export const SECONDS_PER_HOUR = SECONDS_PER_MINUTE * 60
+export const SECONDS_PER_DAY = SECONDS_PER_HOUR * 24
+export const SECONDS_PER_WEEK = SECONDS_PER_DAY * 7
+
+export const AVERAGE_DAYS_PER_YEAR = 365.25
+export const AVERAGE_DAYS_PER_MONTH = 30.42

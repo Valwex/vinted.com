@@ -1,0 +1,6 @@
+export const FORGOT_PASSWORD_URL = '/member/general/reset_password'
+export const ROOT_URL = '/'
+export const LOGIN_SELECT_TYPE = '/member/login/select_type'
+export const LOGIN_RESET_PASSWORD = '/member/login/reset_password'
+export const REGISTER_SELECT_TYPE = '/member/register/select_type'
+export const SIGNUP_HELP_ENTRIES_URL = '/help/103'
